@@ -9,18 +9,51 @@
   background-color: #000000;
 }
 .home-text {
+  color: #ff00a8;
+  align-self: center;
+  text-align: center;
+}
+.home-text01 {
+  font-size: 20px;
+}
+.home-text02 {
+  font-size: 20px;
+}
+.home-text05 {
+  font-size: 20px;
+}
+.home-image {
+  width: 416px;
+  height: 553px;
+  object-fit: cover;
+}
+.home-text07 {
   color: #ffffff;
   align-self: center;
   text-align: center;
 }
-.home-image {
-  width: 200px;
-  object-fit: cover;
-}
 @media(max-width: 991px) {
   .home-text {
+    color: #ff00a8;
     align-self: center;
     text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .home-text {
+    color: #ff00a8;
+  }
+  .home-text01 {
+    font-size: 20px;
+  }
+  .home-text02 {
+    font-size: 20px;
+  }
+  .home-text05 {
+    font-size: 20px;
+  }
+  .home-text07 {
+    color: rgb(255, 255, 255);
   }
 }
 @media(max-width: 479px) {
@@ -28,19 +61,34 @@
     background-color: #000000;
   }
   .home-text {
-    color: rgb(255, 255, 255);
+    color: #FF00A8;
     align-self: center;
     text-align: center;
   }
-  .home-text1 {
+  .home-text01 {
     font-size: 20px;
     align-self: center;
   }
-  .home-text2 {
+  .home-text02 {
+    font-size: 20px;
+  }
+  .home-text03 {
+    font-size: 20px;
+  }
+  .home-text04 {
+    font-size: 20px;
+  }
+  .home-text05 {
     font-size: 20px;
   }
   .home-image {
-    width: 372px;
-    height: 486px;
+    width: 302px;
+    height: 474px;
+  }
+  .home-text07 {
+    color: rgb(255, 255, 255);
+    align-self: center;
+    text-align: center;
+    text-transform: capitalize;
   }
 }
