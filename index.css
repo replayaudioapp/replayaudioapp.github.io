@@ -23,11 +23,10 @@
   font-size: 20px;
 }
 .home-image {
-  width: 416px;
-  height: 553px;
+  width: 200px;
   object-fit: cover;
 }
-.home-text07 {
+.home-text09 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -52,7 +51,7 @@
   .home-text05 {
     font-size: 20px;
   }
-  .home-text07 {
+  .home-text09 {
     color: rgb(255, 255, 255);
   }
 }
@@ -61,7 +60,7 @@
     background-color: #000000;
   }
   .home-text {
-    color: #FF00A8;
+    color: rgb(255, 0, 168);
     align-self: center;
     text-align: center;
   }
@@ -81,14 +80,10 @@
   .home-text05 {
     font-size: 20px;
   }
-  .home-image {
-    width: 302px;
-    height: 474px;
-  }
-  .home-text07 {
+  .home-text09 {
     color: rgb(255, 255, 255);
-    align-self: center;
     text-align: center;
+    padding-bottom: 0px;
     text-transform: capitalize;
   }
 }
